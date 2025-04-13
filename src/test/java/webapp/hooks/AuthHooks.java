@@ -30,10 +30,10 @@ public class AuthHooks {
         // Configure ChromeOptions
         ChromeOptions options = new ChromeOptions();
         options.setCapability("browserVersion", "135.0.7049.84"); // Specify browser version
-        options.addArguments("headless=true"); // Run in headless mode
+        //options.addArguments("headless=true"); // Run in headless mode
         options.addArguments("window-size=1200,800"); // Set browser window size
         options.addArguments("disable-infobars"); // Disable infobars
-        options.addArguments("--headless=chrome"); // Additional headless argument
+        //options.addArguments("--headless=chrome"); // Additional headless argument
 
         // Initialize WebDriver with ChromeOptions
         driver = new ChromeDriver(options);

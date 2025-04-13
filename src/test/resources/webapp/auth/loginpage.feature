@@ -1,4 +1,4 @@
-Feature: Login to HRM Application
+ Feature: Login to HRM Application
 # This feature file tests the login functionality of the HRM application.
 
   Background:

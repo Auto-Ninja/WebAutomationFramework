@@ -1,4 +1,5 @@
 package webapp.auth;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -6,9 +7,7 @@ import org.junit.Assert;
 import pages.auth.HomePage;
 import pages.auth.LoginPage;
 import webapp.hooks.AuthHooks;
-
-class loginpageStepdefs {
-
+public class loginpageStepdefs {
     AuthHooks authHooks;
     LoginPage loginPage;
     HomePage homePage;
